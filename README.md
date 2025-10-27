@@ -23,11 +23,14 @@ source .venv/bin/activate  # Linux / macOS
 
 ```bash
 python -m todo.cli <команда>
+
+python -m todo.cli add "title"
+python -m todo.cli list
 ```
 
 Аргументы:
 
-- title — название задачи (обязательный) + --priority — приоритет задачи
+- add — создать задачу + title — название задачи (обязательный) + --priority — приоритет задачи
 - list — вывод задач (обязательный) + --pending — только невыполненные + --done — только выполненные
 - done — отметить задачу выполненной + --id
 - remove — удалить задачу + --id
