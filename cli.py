@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-from .tasks import add_task, list_tasks, mark_done, remove_task
+from todo.tasks import add_task, list_tasks, mark_done, remove_task
 
 def main():
 	parser = argparse.ArgumentParser(description="CLI To-Do list")
